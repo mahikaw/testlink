@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang=en>
+  <head>
+    <link rel=preload as=script href=../js/jquery.min.js>
+    <link rel=preload as=script href=../js/bootstrap.min.js>
+    <link rel=preload as=script href=../js/tracks.min.js>
+    <link rel=preload as=style href=../css/schedule.css>
+    <link rel=preload as=style href=../css/font-awesome.min.css>
+    <link rel=preload as=style href=../css/bootstrap.min.css>
+    <link rel=preload as=font href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" crossorigin>
+
+
+    <meta charset=utf-8>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name=description content=" Schedule">
+    <meta name=author content="">
+
+    <title></title>
+
+    <!-- Bootstrap core CSS -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="shortcut icon" href="" type=image/x-icon>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,300" rel=stylesheet>
+    <link rel=stylesheet href=../css/font-awesome.min.css>
+    <link rel=stylesheet href=../css/bootstrap.min.css>
+    <link rel=stylesheet href=../css/schedule.css>
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+  <body>
+    <a href=#track-list class=skip>Skip to content</a>
+    <a class=scroll href=# id=down-button data-scroll-direction=0>
+      <i class="fa fa-chevron-up" aria-hidden=true></i>
+    </a>
+    <a id=top></a>
+    
+    <!-- Fixed navbar -->
+    <header role=banner class="navbar-fixed-top navbar-default">
+      <div class=container>
+        <div class="navbar-header navbar-left pull-left">
+            <a class=navbar-brand style=padding:px href=../ >
+              <img alt="../FOSSASIA 2016" class="logo logo-dark" src=../images/fossasia-dark.png>
+          </a>
+        </div>
+    
+        <div class="navbar-header navbar-right pull-right">
+            <button data-toggle=collapse-side data-target=.side-collapse type=button class="navbar-toggle pull-right">
+            <span class=sr-only>Toggle navigation</span>
+            <span class=icon-bar></span>
+            <span class=icon-bar></span>
+            <span class=icon-bar></span>
+          </button>
+        </div>
+    
+        <div class="hidden-lg hidden-md hidden-sm clearfix"></div>
+        <div class="side-collapse in">
+          <nav role=navigation class=navbar-collapse>
+          <ul class="nav navbar-nav navbar-right">
+              <li class=navlink><a id=homelink href=../index.html>Home</a></li>
+              <li class=navlink><a id=schedulelink href=../schedule.html>Schedule</a></li>
+              <li class=navlink><a id=trackslink href=../tracks.html>Tracks</a></li>
+              <li class=navlink><a id=roomslink href=../rooms.html>Rooms</a></li>
+              <li class=navlink><a id=speakerslink href=../speakers.html>Speakers</a></li>
+    
+                <li class="pull-left social-icons"><a href=https://twitter.com/fossasia id=social-icons><i class="fa fa-lg fa-twitter" aria-hidden=true title=twitter></i></a></li>
+                <li class="pull-left social-icons"><a href=https://github.com/fossasia id=social-icons><i class="fa fa-lg fa-github" aria-hidden=true title=github></i></a></li>
+                <li class="pull-left social-icons"><a href=https://www.facebook.com/fossasia id=social-icons><i class="fa fa-lg fa-facebook" aria-hidden=true title=facebook></i></a></li>
+                <li class="pull-left social-icons"><a href=https://www.flickr.com/photos/fossasia id=social-icons><i class="fa fa-lg fa-flickr" aria-hidden=true title=flickr></i></a></li>
+                <li class="pull-left social-icons"><a href=https://plus.google.com/108920596016838318216 id=social-icons><i class="fa fa-lg fa-google-plus" aria-hidden=true title=google-plus></i></a></li>
+                <li class="pull-left social-icons"><a href=https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ id=social-icons><i class="fa fa-lg fa-youtube-play" aria-hidden=true title=youtube-play></i></a></li>
+                <li class="pull-left social-icons"><a href=https://www.linkedin.com/groups/FOSSASIA-3762811 id=social-icons><i class="fa fa-lg fa-linkedin" aria-hidden=true title=linkedin></i></a></li>
+    
+          </ul>
+        </nav>
+        </div>
+      </div>
+    </header>
+      <div class="container session-container">
+        <div class="row single-session" id=23>
+          <h3> Saturday, 19th Mar </h3>
+          <div class=eventtime><span class=time-track>10:30 - 11:00</span></div>
+          <div class=session-content>
+            <div class="sizeevent event event-title" id=title-23 style=background-color:#3dc8c3;margin-right:0;cursor:unset>
+              Linking the word&#x27;s languages in the Open Multilingual Wordnet  (Talk of 20 minutes)  | OpenTech and IoT
+              <a class=bookmark>
+                <i class="fa fa-star" aria-hidden=true>
+                </i>
+              </a>
+            </div>
+            <div>
+              <div>
+                How a combination of technical and social engineering has led to a multi-million lexical database, accessible for all. It has over two million words in 150 languages, organized into concepts and linked in a semantic network. The data is downloadable and available as linked open data.  Every year we add tens of thousands of new senses (concept-word pairs), and richer links between them.   We will talk about how we organize the data, how we freed it and the Python API for accessing it.
+              </div>
+              <hr class=clear-both>
+              <div class=session-speakers-list aria-expanded=false aria-controls=desc-23>
+                  <a href=../speakers.html#francis-bond19>
+                    <div class=session-speakers-less>
+                      <p class=session-speakers>
+                          <img onerror='this.onerror=null,this.src="../images/avatar.png"' src=../images/speakers/thumbnails/FrancisBond_19.jpg class="lazy card-img-top speaker-image-large">
+                      </p>
+                      <span class=graytext>Francis Bond</span>
+                    </div>
+                  </a>
+                    <p class=session-speakers-more> Nanyang Technological University</p>
+                    <div class=session-speakers-more>
+                      Francis Bond is an Associate Professor at the Division of Linguistics and Multilingual Studies, Nanyang Technological University, Singapore.He worked on machine translation and natural language understanding in Japan, first at Nippon Telegraph and Telephone Corporation and then at the National Institute of Information and Communications Technology in Japan, where his focus was on open source natural language processing. He is an active member of the Deep Linguistic Processing with HPSG Initiative (DELPH-IN) and the Global WordNet Association. His main research interest is in natural language understanding.  Francis has developed and released wordnets for Chinese, Japanese, Malay and Indonesian and coordinates the open multilingual wordnet. He is a member of the Internationalization Program of the Internet Architecture Board.
+                    </div>
+                  <div class="blacktext session-speaker-social">
+                    <div class=session-speakers-more>
+                        <a class="blacktext social speaker-social" href=https://github.com/fcbond><i class="fa fa-github"></i> Github</a>&nbsp;
+                      <a class="session-lin social speaker-social clickable-link">
+                        <i class="fa fa-share"></i> Share
+                      </a>&nbsp;
+                      <div class="social-buttons row">
+                        <div class="fb-share facebook social-button">
+                          <i class="fa fa-facebook fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="tw-share twitter social-button">
+                          <i class="fa fa-twitter fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="go-share google social-button">
+                          <i class="fa fa-google-plus fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="li-share facebook social-button">
+                          <i class="fa fa-linkedin fa s-button" aria-hidden=true></i>
+                        </div>
+                        <div class="row social-link">
+                          <input class=speakers-inputbox type=text onclick=this.select() value=base#23 readonly=readonly>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <hr class=clear-both>
+                <div class=blacktext>
+                  <p> <a href=../rooms.html#venue-2016-03-19-Dalton_Hall>Dalton Hall</a></p>
+                  <p>Saturday, 19th Mar, <span>10:30 - 11:00</span></p>
+                  <p>
+                    <ul class=session-ul>
+                      <li style=background-color:#3dc8c3 class=titlecolor></li>
+                      &nbsp;
+                      <li><a href=../tracks.html#2016-03-19-OpenTech_and_IoT> OpenTech and IoT </a> </li>
+                    </ul>
+                  </p><br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    <div class=footer-container>
+      <footer class=classic>
+        <div class=container>
+          <div class="row ui-sortable">
+            <div id=menuItem class="col-sm-2 col-md-2 col-xs-12">
+              <ul class=menu>
+                <li><a target=_self href=index.html#description>About</a></li>
+                <li><a target=_self href=index.html#ticket-button>Tickets</a></li>
+                <li><a target=_self href=schedule.html>Schedule</a></li>
+                <li><a target=_self href=tracks.html>Tracks</a></li>
+                <li><a target=_self href=rooms.html>Rooms</a></li>
+                <li><a target=_self href=speakers.html>Speakers</a></li>
+                <li><a class="inner-link back-to-top" href=#top>Back To Top</a></li>
+              </ul>
+            </div>
+            <div id=copyright class="col-sm-7 col-md-7 col-xs-12">
+             <p>
+            <a href=http://creativecommons.org/licenses/by/4.0/ ><img src=https://i.creativecommons.org/l/by/4.0/80x15.png></a>
+             &nbsp; &copy; 2016
+             <a href=http://fossasia.org/contact/ >FOSSASIA.</a>
+             The website and its contents are licensed under
+              <a href=http://creativecommons.org/licenses/by/4.0/ > Creative Commons Attribution License. </a>
+             The site was generated using the Open Event format on the <a href=https://eventyay.com/ >eventyay</a> <a href=https://webgen.eventyay.com/ >site generator</a>. Please submit issues <a href=https://github.com/fossasia/open-event-webapp/issues>here</a>.
+             </p>
+            </div>
+        <div class="contact-details col-sm-3 col-md-3 col-xs-12">
+          <ul class=contact-methods>
+            <li>
+    
+            <i class="fa fa-envelope"></i>
+              <span>
+              <a href=mailto:contact@fossasia.org target=_self class=org-name>
+              contact@fossasia.org
+              </a>
+              </span>
+    
+    
+            </li>
+            <li class=address>
+            <i class="fa fa-map-marker"></i>
+              <span>FOSSASIA&#44;&nbsp;15 Science Centre Rd, Singapore 609081</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row ui-sortable">
+        <div class="col-sm-12 text-center">
+          <ul class=social-profiles>
+                <li class="pull-left social-icons"><a href=https://twitter.com/fossasia id=social-icons><i class="fa fa-lg fa-twitter" aria-hidden=true title=twitter></i></a></li>
+                <li class="pull-left social-icons"><a href=https://github.com/fossasia id=social-icons><i class="fa fa-lg fa-github" aria-hidden=true title=github></i></a></li>
+                <li class="pull-left social-icons"><a href=https://www.facebook.com/fossasia id=social-icons><i class="fa fa-lg fa-facebook" aria-hidden=true title=facebook></i></a></li>
+                <li class="pull-left social-icons"><a href=https://www.flickr.com/photos/fossasia id=social-icons><i class="fa fa-lg fa-flickr" aria-hidden=true title=flickr></i></a></li>
+                <li class="pull-left social-icons"><a href=https://plus.google.com/108920596016838318216 id=social-icons><i class="fa fa-lg fa-google-plus" aria-hidden=true title=google-plus></i></a></li>
+                <li class="pull-left social-icons"><a href=https://www.youtube.com/channel/UCQprMsG-raCIMlBudm20iLQ id=social-icons><i class="fa fa-lg fa-youtube-play" aria-hidden=true title=youtube-play></i></a></li>
+                <li class="pull-left social-icons"><a href=https://www.linkedin.com/groups/FOSSASIA-3762811 id=social-icons><i class="fa fa-lg fa-linkedin" aria-hidden=true title=linkedin></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    </footer>
+    </div>
+    <script>var eventInfo={};eventInfo.name="../FOSSASIA 2016",eventInfo.name=eventInfo.name.substring(eventInfo.name.lastIndexOf("/")+1)</script>
+    <script src=../js/jquery.min.js></script>
+    <script src=../js/bootstrap.min.js></script>
+    <script src=../js/session.min.js></script>
+  </body>
+</html>
